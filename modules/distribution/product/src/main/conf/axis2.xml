@@ -410,6 +410,7 @@
     <!--<transportReceiver name="admin/https" class="org.wso2.esb.transport.tomcat.HttpsTransportListener">-->
         <!--<parameter name="port" locked="false">9444</parameter>-->
         <!--<parameter name="non-blocking" locked="false">true</parameter>-->
+        <!--<parameter name="HostnameVerifier">false</parameter>-->
     <!--</transportReceiver>-->
 
     <!--Uncomment this and configure as appropriate for JMS transport support, after setting up your JMS environment (e.g. ActiveMQ)
@@ -486,6 +487,7 @@
            need to specify the HTTPS port of the application server
         -->
         <!--<parameter name="port">9443</parameter>-->
+        <!--<parameter name="HostnameVerifier">false</parameter>-->
 
         <!--
        Uncomment the following to enable Apache2 mod_proxy. The port on the Apache server is 443
