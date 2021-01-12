@@ -617,6 +617,7 @@
         <!--<parameter name="Transfer-Encoding">chunked</parameter>-->
         <!-- This parameter has been added to overcome problems encounted in SOAP action parameter -->
         <!--<parameter name="OmitSOAP12Action">true</parameter>-->
+        <!--<parameter name="HostnameVerifier">false</parameter>-->
     <!--</transportSender>-->
     <transportSender name="ws" class="org.wso2.carbon.websocket.transport.WebsocketTransportSender">
         <parameter name="ws.outflow.dispatch.sequence" locked="false">outflowDispatchSeq</parameter>
@@ -638,6 +639,7 @@
         <!--<parameter name="Transfer-Encoding">chunked</parameter>-->
         <!-- This parameter has been added to overcome problems encounted in SOAP action parameter -->
         <!--<parameter name="OmitSOAP12Action">true</parameter>-->
+        <!--<parameter name="HostnameVerifier">false</parameter>-->
     <!--</transportSender>-->
 
     <!-- ================================================= -->
